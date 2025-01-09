@@ -1,0 +1,40 @@
+
+h1{
+  margin-bottom: 40px;
+}
+
+
+Form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      margin:auto;
+      
+
+   
+
+}
+.btn {
+  background-color:#0B666A;
+  margin-bottom:10px;
+
+}
+
+
+
+.right {
+  margin: 15px;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;    /* Centers content vertically */
+    height: 100%;           /* Ensure the height is set, e.g., to match the container height */
+    text-align: center;     /* Ensures text is centered within its container */
+    
+  
+  }
+  
+  
+
+
+  

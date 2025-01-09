@@ -1,0 +1,173 @@
+.pic{
+    width:80px;
+}
+.uni{
+    width: 90px;
+}
+.hero{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+}
+.headshot{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0; 
+    z-index:-1;
+}
+.himg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: 90%;
+}
+
+.head{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.title{
+    margin-top: 40px;
+    font-size: 90px;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.scroll{
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+
+.socials{
+    display: flex  ;
+    flex-direction: column ;
+
+    gap: 10px;
+    padding: 15px;
+    background-color: #35A29F;
+    border-bottom-left-radius: 20px;
+}
+.credibility{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+    line-height:20px;
+}
+.bcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width :50%;
+    gap: 8px;
+}
+.bubble {
+    height:90px;
+    width:100%;
+    background-color: white;
+    color: #071952;
+    padding:20px;
+    font-size: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+
+}
+
+.avatar {
+    width:50px;
+    height:50px;
+    object-fit: cover ;
+
+}
+@media (max-width:1536px) {
+    .title{
+        font-size: 72px;
+    }
+}
+@media (max-width:1280px) {
+    .headshot{
+        height:65%;
+        top:auto;
+        bottom: 0;
+    }
+    
+}
+@media (max-width:1024px) {
+    .headshot{
+        height:65%;
+        top:auto;
+        bottom: 0;
+    }
+    .title{
+        font-size: 60px
+    }
+    .bcontainer{
+        width:100%;
+       
+    }
+    .bubble{
+        height: 90%;
+    }
+   
+}
+@media (max-width:768px) {
+    .headshot{
+        height:65%;
+        top:auto;
+        bottom: 0;
+    }
+    .title{
+        font-size: 60px;
+        
+    }
+    .aboutme h2{
+        font-size: 17px;
+        
+    }
+    .aboutme p{
+        font-size: 13px;
+    }
+
+    .bcontainer{
+        width:100%;
+        
+    }
+    .bubble{
+        height:80%;
+    }
+    .credibility, .bcontainer{
+        display: none;
+    }
+    
+}
